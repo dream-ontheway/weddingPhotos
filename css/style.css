@@ -1,0 +1,170 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1490944432772'); /* IE9*/
+  src: url('iconfont.eot?t=1490944432772#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1490944432772') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1490944432772') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1490944432772#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xin:before { content: "\e64b"; }
+
+.icon-next:before { content: "\e65d"; }
+
+.icon-prev:before { content: "\e61b"; }
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul,li,p{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	background: #fff;
+}
+nav ul {
+	width: 100%;
+	text-align: center;
+}
+nav ul li a{
+	font-size: 16px;
+	line-height: 100px;
+
+}
+.marryTime{
+	background: #000;
+	width: 100%;
+}
+.marryTime ul li a{
+	line-height: 46px;
+	color: #b5a56b;
+}
+.carousel-indicators li{
+	width: 40px;
+	height: 5px;
+	margin: 0;
+	border: none;
+	background: #fff;
+}
+.carousel-indicators .active{
+	width: 40px;
+	height: 5px;
+	background: red;
+}
+.banner_next_arrow{
+	width: 80px;
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+	right: 0;
+	display: none;
+	-moz-transform: rotateZ(180deg);
+    -o-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+.banner_prev_arrow{
+	width: 80px;
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+	display: none;
+}
+.carousel-control.right,.carousel-control.left{
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,0)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
+}
+.container_content{
+	width: 100%;
+	background: #403f3b;
+}
+.top_title{
+	width: 100%;
+	background: #73726e;
+	line-height: 150px;
+	text-align: center;
+	margin: 0;
+	color: #ff8f8e;
+}
+.left_direction{
+	background: #312318;
+	color: #CFBE79;
+	text-align: center;
+	height: 516px;
+	 display:table;
+}
+.left_direction_box{
+	display:table-cell;vertical-align:middle;
+}
+.direction_ch{
+	font-size: 50px;
+}
+.direction_line{
+	width: 80%;
+	margin: 0 auto;
+	background: #CFBE79;
+	height: 2px;
+}
+.direction_en,.direction_img{
+	font-size: 30px;
+}
+.right_img{
+	padding: 0;
+}
+.right_img img{
+	width: 100%;
+	height: 516px;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 150px;
+	background: rgba(0,0,0,.9);
+	display: table;
+}
+.footer_content{
+	display:table-cell;vertical-align:middle;
+}
+footer p{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 30px;
+}
+.home_map{
+	background: #403f3b;
+}
+.home_map .container{
+	padding: 0;
+}
+.my-map { 
+	margin: 0 auto; 
+	width: 100%; 
+	height: 500px; 
+}
+.my-map .icon { background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat; }
+.my-map .icon-cir { height: 31px; width: 28px; }
+.my-map .icon-cir-red { background-position: -11px -5px; }
+.amap-container{height: 100%;}
