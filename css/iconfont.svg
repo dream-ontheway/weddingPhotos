@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg">
 <metadata>
-Created by FontForge 20120731 at Fri Mar 31 15:13:52 2017
+Created by FontForge 20120731 at Sat Apr  1 10:52:00 2017
  By admin
 </metadata>
 <defs>
@@ -16,10 +16,10 @@ Created by FontForge 20120731 at Fri Mar 31 15:13:52 2017
     ascent="896"
     descent="-128"
     x-height="792"
-    bbox="44 -212 958 812"
+    bbox="0 -212 1113 896"
     underline-thickness="0"
     underline-position="0"
-    unicode-range="U+0078-E65D"
+    unicode-range="U+0078-E6D9"
   />
 <missing-glyph 
  />
@@ -42,5 +42,7 @@ q0 -126 92 -250.5t296 -273.5q204 149 296.5 273.5t92.5 250.5q0 86 -48 144t-120 58
 d="M256 812v-75l438 -437l-438 -437v-75l512 512z" />
     <glyph glyph-name="prev" unicode="&#xe61b;" 
 d="M713 -131q-7 0 -12 5l-402 402q-5 5 -5 12t5 12l402 402q5 5 12 5t12 -5t5 -12t-5 -12l-390 -390l390 -390q5 -5 5 -12t-5 -12t-12 -5v0z" />
+    <glyph glyph-name="fanhuidingbu" unicode="&#xe6d9;" horiz-adv-x="1114" 
+d="M1024 896h-935q-37 0 -63 -26t-26 -63v-846q0 -37 26 -63t63 -26h935q37 0 63 26t26 63v846q0 37 -26 63t-63 26zM849.5 225q-6.5 -7 -15.5 -7t-16 7l-252 252l-252 -252q-6 -7 -15.5 -7t-16 7t-6.5 16t7 15l268 268q6 7 15 7t16 -7l268 -268q6 -6 6 -15t-6.5 -16z" />
   </font>
 </defs></svg>
