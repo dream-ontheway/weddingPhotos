@@ -200,3 +200,12 @@ footer p{
 	height: 516px;
 	width: 100%;
 }
+/* 个人计划 */
+.personal_plan{
+	width: 100%;
+	height: auto;
+	background: url(../images/pages-bg.jpg);
+}
+.signin_bottom_right{
+	background: #e4e4e4;
+}
