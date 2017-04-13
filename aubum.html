@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>相册</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/fullpage.css" rel="stylesheet">
+</head>
+<body>
+	<div class="nav">
+		<ul class="aubum_box">
+			<li class="album_lists">8寸</li>
+			<li class="album_lists">16寸</li>
+			<li class="album_lists">18寸</li>
+			<li class="album_lists">12寸</li>
+			<li class="album_lists">12寸</li>
+			<li class="album_lists">掌中宝</li>
+		</ul>
+	</div>
+    <div id="fullpage" class="">
+        <div class="section s1 abbum">
+            <img src="img/album/P1.jpg" alt="">
+        </div>
+        <div class="section s2 abbum">
+             <img src="img/album/P2.jpg" alt="">
+        </div>
+        <div class="section s3 abbum">
+             <img src="img/album/P3.jpg" alt="">
+        </div>
+        <div class="section s4 abbum">
+             <img src="img/album/P4.jpg" alt="">
+        </div>         
+        <div class="section s5 abbum">
+            <img src="img/album/P5.jpg" alt="">
+        </div>
+    </div>
+ </body>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script>
+    $(function(){
+        $('#fullpage').fullpage({
+            navigation:'true'
+        });
+    });
+</script>
+</html>
